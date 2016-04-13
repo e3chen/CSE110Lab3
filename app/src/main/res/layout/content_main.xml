@@ -34,7 +34,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="Subtract"
         android:id="@+id/button"
         android:layout_below="@+id/editText2"
         android:layout_alignLeft="@+id/editText2"
@@ -47,7 +47,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
         android:id="@+id/textView"
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
