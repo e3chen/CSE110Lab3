@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText text2 = (EditText) findViewById(R.id.editText2);
                 int num1 = Integer.parseInt(text1.getText().toString());
                 int num2 = Integer.parseInt(text2.getText().toString());
-                int total = sum(num1, num2);
+                int total = difference(num1, num2);
 
                 TextView text3 = (TextView) findViewById(R.id.textView);
                 text3.setText(Integer.toString(total));
@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public int sum(int one, int two){
-        return one + two;
+    public int difference(int one, int two){
+        return one - two;
     }
 
     @Override

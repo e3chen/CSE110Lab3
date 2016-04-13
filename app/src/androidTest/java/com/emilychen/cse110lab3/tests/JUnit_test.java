@@ -15,13 +15,13 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity> {
         super(MainActivity.class);
     }
 
-    public void test_Sum() {
+    public void test_Difference() {
         mainActivity = getActivity();
 
-        int one = 15;
-        int two = 30;
+        int one = 30;
+        int two = 15;
 
-        int three = mainActivity.sum(one, two);
-        assertEquals(45, three);
+        int three = mainActivity.difference(one, two);
+        assertEquals(15, three);
     }
 }
